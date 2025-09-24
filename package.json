@@ -1,0 +1,17 @@
+{
+  "name": "meu-projeto-ml",
+  "version": "1.0.0",
+  "description": "Projeto para consultar, comparar e atualizar estoque no Mercado Livre integrado com Excel",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "keywords": ["mercadolivre", "estoque", "excel", "nodejs", "express"],
+  "author": "Gleison Santos",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.0",
+    "express": "^4.18.2",
+    "xlsx": "^0.22.0"
+  }
+}
