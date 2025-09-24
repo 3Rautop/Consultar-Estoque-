@@ -8,10 +8,13 @@
  ┃ ┣ routes.js
  ┃ ┣ mlService.js
  ┃ ┣ excelService.js
- ┃ ┣ tokenService.js
+ ┃ ┗ tokenService.js
+ ┣ index.html
+ ┣ styles.css
  ┣ config.json
  ┣ package.json
  ┣ renovar_token.js
+ ┣ Itens - 3884.xlsx
  ┗ README.md
 
 ## 1️⃣ Token de Acesso
@@ -61,3 +64,4 @@
 - O sistema ignora prefixos no SKU do Mercado Livre.  
 - O estoque enviado sempre será o da planilha (`Saldo`).  
 - `renovar_token.js` mantém o token atualizado, garantindo que operações do ML nunca falhem.
+
